@@ -1,0 +1,88 @@
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+
+#fundo{
+    position: absolute;
+    z-index: -10;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+header{
+    padding: 20px;
+    background-color: 	#8ac23a;
+    box-shadow: 0px 0px 50px black;
+    width: 100vw;
+}
+
+#img_logo{
+    height: 100px;
+    border-radius: 100%;
+    margin-left: 80px;
+}
+
+#lista{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    gap: 20%;
+}
+
+#lista ul{
+    display: flex;
+    gap: 80px;
+}
+
+li{
+    list-style: none;
+}
+
+#menu{
+    height: 65px;
+}
+
+#sec1{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    max-width: 90vw;
+    margin: 0px auto;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    z-index: 10;
+    margin-top: 5%;
+}
+
+.card_style{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+
+.div_maior{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    background-color:#1a064dd6;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 100ms ease-in-out;
+}
+
+.div_maior:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.style_img{
+    border-radius: 10px;
+    box-shadow: -3px 3px 10px #8ac23a;
+}
+
